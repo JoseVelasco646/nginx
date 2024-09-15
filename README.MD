@@ -9,3 +9,5 @@ Este documento es para configurar un Dodcker con Nginx con el puerto 80, instala
 5. Crear usuario dentro de docker.
 6. Hacer el proxy reverse.
 
+## Descargar
+Lo primero que tenemos que hacer es instalar Docker.
