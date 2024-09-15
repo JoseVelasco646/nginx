@@ -6,9 +6,10 @@ Este documento es para configurar un Dodcker con Nginx con el puerto 80, instala
 2. [Descargar el Docker de nginx](#Desccargar-Docker-de-nginx)
 
 3. [Configurar nginx](#Configurar-nginx)
-4. Instalar python3, entorno virtual, vim etc.
-5. Crear usuario dentro de docker.
-6. Hacer el proxy reverse.
+
+4. [Instalar paquetes](#Instalacion-de-paquetes)
+5. [Creacion de usuario](#Crear-de-usuario)
+6. [Crear proxy reverse](#Proxy)
 
 ## Descargar
 Lo primero que tenemos que hacer es instalar Docker.
@@ -19,5 +20,15 @@ Nos dirigimos al link para instalar docker, para poder instalarlo por favor de l
 Para Instalar el contenedor nos vamos a https://hub.docker.com/, aqui buscamos el contenedor de nginx.  
 Para Descargarlo nos vamos a la terminal y ponemos el siguiente comando `docker pull nginx`.  
 
-## Congigurar-nginx
-Para configurar nginx, primero verificamos que la imgen este descargar con el siguiente comando `docker image ls`, como usaremos linux, tendremos que poner `sudo` antes de cualquier codigo.
+## Configurar-nginx
+Para configurar nginx, primero verificamos que la imgen este descargar con el siguiente comando `docker image ls`, como usaremos linux, tendremos que poner `sudo` antes de cualquier codigo.  
+Ahora creamos el contenedor de ngix con el siguiente comando `sudo docker run --name nginxx -p 80:80 -d nginx` con este comando creamos un nuevo contenedor, ahora verifcamos que se ha creado el contenedor con el comando `sudo docker ps`, nos deberia de mostrar el contenedor ejecutandose.
+
+## Instalacion-de-paquetes
+Una vez que tengamos ejecutando el contenedor de nginx entramos a el, con el comando `sudo docker exec -it nginxx bash`. Dentro del contenedor tendremos que descargar python3, el entorno virtual de python, vim, etc.  
+Para instalar python3 primero actualizamos los paquetes con el comando `apt update`, ahora instalamos python3, `apt install python3`, instalamos el entorno virtual `apt install python3`, y por ultimo instalmos vim `apt install vim`.  
+
+## Creacion-de-usuario
+Una vez que tengamos instlado lo anterior procedemos a crear un usario con el comando `adduser "name"` y le agregamos los datos que nos pide, ahora para accedes al usuario solo usamos el comando `su "name"`, para salir del usuario solo usamos el comando `exit`
+
+## Proxy
