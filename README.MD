@@ -11,5 +11,5 @@ Este documento es para configurar un Dodcker con Nginx con el puerto 80, instala
 
 ## Descargar
 Lo primero que tenemos que hacer es instalar Docker.
-https://www.docker.com/
+https://www.docker.com/.  
 Nos dirigimos al link para instalar docker, para poder instalarlo por favor de leer la documentacion para no tener problemas al descargarlo.
