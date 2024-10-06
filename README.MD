@@ -75,5 +75,5 @@ Crea un archivo de Python:
 vim hello.py
 ```
 Dentro de este archivo, escribe el ejemplo de Flask que puedes encontrar en la documentación de Flask.
-* Presiona i para entrar en modo de inserción.
-* Después de escribir el código, presiona Esc, luego Shift + :, y finalmente escribe wq para guardar y salir.
+* Presiona `i` para entrar en modo de inserción.
+* Después de escribir el código, presiona Esc, luego `Shift + :` , y finalmente escribe `wq` para guardar y salir.
