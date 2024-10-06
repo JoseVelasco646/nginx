@@ -18,7 +18,6 @@ Lo primero que debemos hacer es instalar Docker. Dirígete a [Docker](https://ww
 ## Descargar contenedor de Nginx
 
 Para instalar el contenedor de Nginx, visita [Docker Hub](https://hub.docker.com/) y busca el contenedor de Nginx. Luego, en la terminal, ejecuta el siguiente comando:
-
 ```bash
 docker pull nginx
 ```
@@ -28,10 +27,12 @@ sudo docker image ls
 ```
 Ahora, crea el contenedor de Nginx con el siguiente comando:
 ```bash
-```
 sudo docker run --name nginxx -p 80:80 -d nginx
+```
+
 Verifica que el contenedor esté ejecutándose:
 ```bash
-```
 sudo docker ps
+
+```
 
