@@ -53,3 +53,13 @@ apt install vim
 ```bash
 adduser "nombre_de_usuario"
 ```
+
+Sigue las instrucciones que aparecen en pantalla. Para acceder al nuevo usuario, utiliza:
+```bash
+su "nombre_de_usuario"
+```
+Para salir del usuario, simplemente usa el comando:
+```bash
+exit
+
+```
