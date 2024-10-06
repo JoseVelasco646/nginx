@@ -41,3 +41,15 @@ Una vez que tengas el contenedor de Nginx en ejecución, accede a él con el com
 ```bash
 sudo docker exec -it nginxx bash
 ```
+Dentro del contenedor, actualiza los paquetes e instala Python 3 y otros utilitarios necesarios:
+```bash
+apt update
+apt install python3
+apt install python3-venv
+apt install vim
+
+```
+## Creación de usuario
+```bash
+adduser "nombre_de_usuario"
+```
