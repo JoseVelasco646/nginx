@@ -77,3 +77,22 @@ vim hello.py
 Dentro de este archivo, escribe el ejemplo de Flask que puedes encontrar en la documentación de Flask.
 * Presiona `i` para entrar en modo de inserción.
 * Después de escribir el código, presiona Esc, luego `Shift + :` , y finalmente escribe `wq` para guardar y salir.
+
+Ahora, activa el entorno virtual e instala Flask:
+```bash
+
+source bin/activate
+pip install Flask
+```
+Ejecuta Flask con el siguiente comando:
+```bash
+flask --app hello run
+```
+Flask debería estar ejecutándose en el puerto 5000.
+
+## Configuración del Proxy Reverse
+Dirígete al directorio principal del contenedor. Usa `cd` para navegar y sal del usuario actual con `exit`.  
+Ahora ve a la carpeta de configuración de Nginx:
+```bash
+cd /etc/nginx/conf.d/
+```
