@@ -33,6 +33,11 @@ sudo docker run --name nginxx -p 80:80 -d nginx
 Verifica que el contenedor esté ejecutándose:
 ```bash
 sudo docker ps
-
 ```
 
+## Instalación de paquetes
+Una vez que tengas el contenedor de Nginx en ejecución, accede a él con el comando:
+
+```bash
+sudo docker exec -it nginxx bash
+```
