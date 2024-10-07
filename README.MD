@@ -6,7 +6,7 @@ Este documento describe cómo configurar un contenedor Docker con Nginx en el pu
 
 1. [Descargar Docker](#Descargar-docker)
 2. [Descargar contenedor de Nginx](#Descargar-contenedor-Nginx)
-3. [Configurar Nginx](#configurar-nginx)
+3. [Configurar Nginx](#configurar-Nginx)
 4. [Instalación de paquetes](#Instalación-de-paquetes)
 5. [Creación de usuario](#Creación-de-usuario)
 6. [Crear Proxy Reverse](#crear-proxy-reverse)
@@ -16,7 +16,6 @@ Este documento describe cómo configurar un contenedor Docker con Nginx en el pu
 Lo primero que debemos hacer es instalar Docker. Dirígete a [Docker](https://www.docker.com/) para descargarlo. Asegúrate de leer la documentación para evitar problemas durante la instalación.
 
 ## Descargar contenedor de Nginx
-
 Para instalar el contenedor de Nginx, visita [Docker Hub](https://hub.docker.com/) y busca el contenedor de Nginx. Luego, en la terminal, ejecuta el siguiente comando:
 ```bash
 docker pull nginx
