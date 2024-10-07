@@ -64,7 +64,7 @@ exit
 
 ```
 
-## Crear Proxy Reverse
+## Crear Ejemplode Flask
 Para crear un proxy reverse, dirígete primero a la carpeta de inicio del usuario y crea un entorno virtual:
 ```bash
 python3 -m venv nombre_del_entorno
