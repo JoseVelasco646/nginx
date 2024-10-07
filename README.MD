@@ -8,6 +8,7 @@ Este documento describe cómo configurar un contenedor Docker con Nginx en el pu
 2. [Descargar el contenedor de Nginx](#descargar-contenedor-nginx)
 3. [Configurar Nginx](#configurar-nginx)
 4. [Instalación de paquetes](#instalacion-de-paquetes)
+[documentación de Flask](https://flask.palletsprojects.com/)
 5. [Creación de usuario](#creacion-de-usuario)
 6. [Crear Proxy Reverse](#crear-proxy-reverse)
 
@@ -74,7 +75,8 @@ Crea un archivo de Python:
 ```bash
 vim hello.py
 ```
-Dentro de este archivo, escribe el ejemplo de Flask que puedes encontrar en la documentación de Flask.
+Dentro de este archivo, escribe el ejemplo de Flask que puedes encontrar en la documentación de Flask.  
+Para editar el archivo en Vim, consulta la [documentación de Flask](https://flask.palletsprojects.com/).
 * Presiona `i` para entrar en modo de inserción.
 * Después de escribir el código, presiona Esc, luego `Shift + :` , y finalmente escribe `wq` para guardar y salir.
 
