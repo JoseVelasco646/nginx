@@ -91,7 +91,7 @@ flask --app hello run
 ```
 Flask debería estar ejecutándose en el puerto 5000.
 
-## Configuración del Proxy Reverse
+## Crear Proxy Reverse
 Dirígete al directorio principal del contenedor. Usa `cd` para navegar y sal del usuario actual con `exit`.  
 Ahora ve a la carpeta de configuración de Nginx:
 ```bash
