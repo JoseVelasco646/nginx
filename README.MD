@@ -96,3 +96,16 @@ Ahora ve a la carpeta de configuración de Nginx:
 ```bash
 cd /etc/nginx/conf.d/
 ```
+Edita el archivo default.conf. Ve a la línea 21 y añade la siguiente configuración:
+```bash
+location /pagina {
+    proxy_pass http://127.0.0.1:5000;
+    proxy_set_header Host "localhost";
+}
+```
+Guarda y sal del archivo `wq`.  
+Reinicia Nginx con el siguiente comando:
+```bash
+nginx -s reload
+```
+Ahora, ejecuta de nuevo el ejemplo de Flask y prueba en el navegador accediendo a `http://localhost/pagina`.
