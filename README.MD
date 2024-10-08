@@ -78,6 +78,11 @@ Dentro de este archivo, escribe el ejemplo de Flask que puedes encontrar en la [
 * Presiona `i` para entrar en modo de inserción.
 * Después de escribir el código, presiona Esc, luego `Shift + :` , y finalmente escribe `wq` para guardar y salir.
 
+Descargar Flask
+```bash
+pip install Flask
+```
+
 Ahora, activa el entorno virtual e instala Flask:
 ```bash
 
